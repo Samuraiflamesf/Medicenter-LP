@@ -6,8 +6,11 @@
     --color4:#e2e3e4;
     --color5:#a2d2ff;
     --color6:#457b9d;
-    --color7:#1d3557;
-    --color8:#023e8a;
+    --color7:#023e8a;
+    --color8:#1d3557;
+}
+*{
+    font-family: poppinsregular,poppinsbold;
 }
 @keyframes colors {
     0%{
@@ -72,4 +75,105 @@ nav a:hover{
     background-position: center;
     background-size: cover;
     height: 650px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.banner_head{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+.banner_head h1{
+    color: var(--white);
+    font-size: 50px;
+    font-family: poppinsregular;
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0;
+    padding: 0;
+    max-width: 450px;
+}
+.banner_head h2{
+    color: var(--white);
+    font-size: 20px;
+    font-family: poppinsregular;
+    margin: 0;
+    padding: 0;
+    text-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: 21px;
+    max-width: 350px;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: var(--white);
+    padding: 21px;
+    
+}
+.title{ 
+    font-size: 21px;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    
+}
+.descr{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner1{
+    background-color:#39aae1 ;
+}
+
+.banner2{
+    background-color: #0079c7;
+}
+
+.banner3{
+    background-color: #2b4c99;
+}
+
+button{
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #080D13;
+    cursor: pointer;
+    display: inline-flex;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;    
+    transition: box-shadow .15s,transform .15s;
+    font-size: 13px;
+}
+
+button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex:2;
+}
+#geral aside{
+    flex:1
 }
