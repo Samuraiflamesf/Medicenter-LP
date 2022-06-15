@@ -1,0 +1,15 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.wait": 100,
+    "cSpell.enableFiletypes": [
+        "!css"
+    ],
+    "cSpell.language": "en,pt",
+    "cSpell.words": [
+        "contato",
+        "Medicenter"
+    ],
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 200,
+    "liveServer.settings.fullReload": true
+}

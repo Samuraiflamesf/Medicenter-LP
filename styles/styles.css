@@ -61,7 +61,7 @@ nav a{
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
-    color: color1;
+    color: var(--color1);
 }
 nav :active a,
 nav a:hover{
@@ -175,5 +175,5 @@ button:hover {
     flex:2;
 }
 #geral aside{
-    flex:1
+    flex:1brack
 }
