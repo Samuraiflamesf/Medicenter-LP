@@ -175,5 +175,103 @@ button:hover {
     flex:2;
 }
 #geral aside{
-    flex:1brack
+    flex:1;
+}
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    color: var(--color1);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.widget_title_bar{
+    width: 13%;
+    height: 4px;
+    background-color: var(--color7);
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+article a {
+    text-decoration: none;
+}
+article .news_date{
+    display: flex;
+
+}
+article .newposted{
+    background-color: var(--color7);
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 10px;   
+    margin-right: 3px;
+}
+article .new_coments{
+    background-color: var(--color6);
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 10px;   
+}
+article .thumbnail{
+    margin-top: 30px;
+}
+article .thumbnail img{
+    width: 100%;
+    height: auto;
+}
+article .title{
+    color: var(--color1);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+article .resume{
+    color: var(--color2);
+    font-size: 0.9rem;
+}
+footer{
+    background-color: var(--color8);
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+    flex: 1;
+}
+.fn1, .fn2, .fn3{
+    flex: 1;
+    color: var(--white);
+    padding: 20px;
+}
+.fn1{
+    background-color:#39aae1 ;
+}
+
+.fn2{
+    background-color: #0079c7;
+}
+
+.fn3{
+    background-color: #2b4c99;
+}
+.footer_area{
+ display: flex;
+}
+.footer_areaitem{
+    color: var(--white);   
+    flex: 1;
+    font-size: 1.1rem;   
+}
+.flexColum{
+    flex-direction: column;
 }
