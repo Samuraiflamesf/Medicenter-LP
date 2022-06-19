@@ -275,3 +275,6 @@ footer{
 .flexColum{
     flex-direction: column;
 }
+.thumbnail img{
+    border-radius: 4% 0;
+}
