@@ -53,4 +53,9 @@
         background-color: #FFFFFF;
         justify-content: center;
     }
+    .footer_area{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
